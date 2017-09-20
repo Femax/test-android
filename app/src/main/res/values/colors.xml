@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="home_page_background">#888</color>
+    <color name="circle_indicator_normal">#40ffffff</color>
+    <color name="circle_indicator_selected">#fff</color>
+    <color name="accent_light">#f4e7d7</color>
+    <color name="text_on_image_background">#8000</color>
+    <color name="start_fragment_news_text">#ffffff</color>
+    <dimen name="list_content_left_margin">72dp</dimen>
+    <dimen name="list_content_right_margin">16dp</dimen>
+</resources>

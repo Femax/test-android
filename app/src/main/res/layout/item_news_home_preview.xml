@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="RtlHardcoded">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerCrop"
+        tools:src="@color/accent_light"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/text_on_image_background"
+        android:maxLines="4"
+        android:minHeight="56dp"
+        android:paddingBottom="32dp"
+        android:paddingLeft="@dimen/list_content_left_margin"
+        android:paddingRight="@dimen/list_content_right_margin"
+        android:paddingTop="16dp"
+        android:textColor="@color/start_fragment_news_text"
+        tools:text="Test news headline, a few lines"/>
+
+</FrameLayout>
